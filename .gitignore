@@ -1,0 +1,27 @@
+# Environments
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Secrets
+.env
+
+# Local DB
+user.db
+
+# IDE
+.vscode/
+.idea/
+.DS_Store
+
+# Локальные файлы (не пушить)
+genai-readme.md
+human-readme.md
+.cursorrules
+tools/
+bot_settings.json
